@@ -1,0 +1,14 @@
+.parent_component {
+    display: grid;
+    grid-template-columns: 17rem auto 22rem;
+
+}
+
+@media(max-width:1200px) {
+    .parent_component {
+        display: flex;
+        flex-direction: column;
+        width: min-content;
+        text-align: center;
+    }
+}
